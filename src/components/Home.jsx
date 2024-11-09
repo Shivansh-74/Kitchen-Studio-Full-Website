@@ -37,13 +37,13 @@ export default function Home() {
   <p className="w-[80%] text-center pb-10">Globally-renowned for creating the statement kitchen, our kitchens have been loved by our customers for the last 40 years. Whether you prefer traditional or contemporary, you can be sure that with us your kitchen is the very best in British Luxury interior design.</p>
   <Button text="Explore"/>
   </div>
-  <img src={kitchen2} alt=""  className="col-span-2 md:p-1 p-5"/>
+  <img src={kitchen2} alt=""  className="col-span-2 md:p-1 p-5 border rounded-[10px]"/>
   </div>
 
  <hr />
  
  <div className="cards md:grid grid-cols-4 py-10 md:w-[98%] w-[100%] flex flex-col justify-center items-center">
- <img src={kitchen3} alt=""  className="col-span-2 p-4"/>
+ <img src={kitchen3} alt=""  className="col-span-2 p-4 border rounded-[10px]"/>
   <div className="content col-span-2 flex flex-col items-center">
   <h1 className="w-[80%] text-3xl text-blue text-center md:py-16 py-6">THE ORIGINAL STATEMENT KITCHEN</h1>
   <p className="w-[80%] text-center pb-10">Globally-renowned for creating the statement kitchen, our kitchens have been loved by our customers for the last 40 years. Whether you prefer traditional or contemporary, you can be sure that with us your kitchen is the very best in British Luxury interior design.</p>
@@ -59,7 +59,7 @@ export default function Home() {
 <p className="w-[80%] text-center md:pb-10 pb-4">Globally-renowned for creating the statement kitchen, our kitchens have been loved by our customers for the last 40 years. Whether you prefer traditional or contemporary, you can be sure that with us your kitchen is the very best in British Luxury interior design.</p>
 <Button text="Explore"/>
 </div>
-<img src={kitchen4} alt=""  className="col-span-2 md:p-1 p-5"/>
+<img src={kitchen4} alt=""  className="col-span-2 md:p-1 p-5 border rounded-[10px]"/>
 </div>
 
 
