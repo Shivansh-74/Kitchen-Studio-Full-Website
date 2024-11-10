@@ -5,7 +5,7 @@ export default function About() {
     <div className='w-[100%] '>
 
     <div className='md:grid grid-cols-5 w-[100%] flex flex-col'>
-    <div className="w-[100%] col-span-3 h-[500px]  flex flex-col gap-5
+    <div className="w-[100%] col-span-3 md:h-[500px] h-[600px]  flex flex-col gap-5
     items-center my-10">
     <div className=' w-[85%]  py-5 '>
     <h1 className='text-center text-4xl font-bold text-orange-950 '>About us</h1>
@@ -19,7 +19,7 @@ export default function About() {
   </div>
 
     </div> 
-    <div className="2 col-span-2 md:h-[500px] h-[350px]">
+    <div className="2 col-span-2 md:h-[500px] h-[300px] md:my-1 my-5">
     <img src="https://thecolosseum.co.in/assets/images/latest-cube-images/new%20cube%20images%20(1)/Kitchen/carousel/Slide-1.jpg" alt="" className='px-4 md:w-[100%] md:h-[90%] h-[100%] w-[90%] md:m-4 p-4 mx-auto mt-[-20px] border rounded-[10px]'/>
     </div>
     </div>
